@@ -1,0 +1,6 @@
+{
+  "parent": "leafpile:block/leaf_pile_1",
+  "textures": {
+    "leaf_pile": "leafpile:block/dark_oak_leaf_pile"
+  }
+}

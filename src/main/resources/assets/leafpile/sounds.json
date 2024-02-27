@@ -1,0 +1,10 @@
+{
+  "leaf_skirt": {
+    "subtitle": "subtitles.leafpile.leaf_skirt",
+    "sounds": [
+      "leafpile:leaf_skirt_1",
+      "leafpile:leaf_skirt_2",
+      "leafpile:leaf_skirt_3"
+    ]
+  }
+}

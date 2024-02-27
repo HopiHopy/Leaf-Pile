@@ -1,0 +1,179 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "leafpile:dead_jungle_leaf_pile",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "fallen_leaves_amount": "1"
+                      }
+                    }
+                  ],
+                  "count": 1.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "leafpile:dead_jungle_leaf_pile",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "fallen_leaves_amount": "2"
+                      }
+                    }
+                  ],
+                  "count": 2.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "leafpile:dead_jungle_leaf_pile",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "fallen_leaves_amount": "3"
+                      }
+                    }
+                  ],
+                  "count": 3.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "leafpile:dead_jungle_leaf_pile",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "fallen_leaves_amount": "4"
+                      }
+                    }
+                  ],
+                  "count": 4.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "leafpile:dead_jungle_leaf_pile",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "fallen_leaves_amount": "5"
+                      }
+                    }
+                  ],
+                  "count": 5.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": [
+                          "minecraft:shears"
+                        ]
+                      }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "enchantments": [
+                          {
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "name": "leafpile:dead_jungle_leaf_pile"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "chances": [
+                    0.07,
+                    0.08,
+                    0.11
+                  ],
+                  "condition": "minecraft:table_bonus",
+                  "enchantment": "minecraft:fortune"
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "min": 1.0,
+                    "max": 3.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:stick"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "chances": [
+                    0.8,
+                    0.4
+                  ],
+                  "condition": "minecraft:table_bonus",
+                  "enchantment": "minecraft:fortune"
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "min": 0.0,
+                    "max": 3.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "leafpile:dead_leaf"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/dead_jungle_leaf_pile"
+}

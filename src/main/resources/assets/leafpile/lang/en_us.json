@@ -1,0 +1,28 @@
+{
+  "group.leafpile": "Leaf Pile",
+
+  "item.leafpile.leaf": "Leaf",
+  "item.leafpile.dead_leaf": "Dead Leaf",
+  "item.leafpile.leaf_skirt": "Leaf Skirt",
+
+  "block.leafpile.oak_leaf_pile": "Oak Leaf Pile",
+  "block.leafpile.spruce_leaf_pile": "Spruce Leaf Pile",
+  "block.leafpile.birch_leaf_pile": "Birch Leaf Pile",
+  "block.leafpile.jungle_leaf_pile": "Jungle Leaf Pile",
+  "block.leafpile.acacia_leaf_pile": "Acacia Leaf Pile",
+  "block.leafpile.dark_oak_leaf_pile": "Dark Oak Leaf Pile",
+  "block.leafpile.mangrove_leaf_pile": "Mangrove Leaf Pile",
+  "block.leafpile.cherry_leaf_pile": "Cherry Leaf Pile",
+  "block.leafpile.azalea_leaf_pile": "Azalea Leaf Pile",
+  "block.leafpile.dead_oak_leaf_pile": "Dead Oak Leaf Pile",
+  "block.leafpile.dead_spruce_leaf_pile": "Dead Spruce Leaf Pile",
+  "block.leafpile.dead_birch_leaf_pile": "Dead Birch Leaf Pile",
+  "block.leafpile.dead_jungle_leaf_pile": "Dead Jungle Leaf Pile",
+  "block.leafpile.dead_acacia_leaf_pile": "Dead Acacia Leaf Pile",
+  "block.leafpile.dead_dark_oak_leaf_pile": "Dead Dark Oak Leaf Pile",
+  "block.leafpile.dead_mangrove_leaf_pile": "Dead Mangrove Leaf Pile",
+  "block.leafpile.dead_cherry_leaf_pile": "Dead Cherry Leaf Pile",
+  "block.leafpile.dead_azalea_leaf_pile": "Dead Azalea Leaf Pile",
+
+  "subtitles.leafpile.leaf_skirt": "Leaf skirt rustling"
+}

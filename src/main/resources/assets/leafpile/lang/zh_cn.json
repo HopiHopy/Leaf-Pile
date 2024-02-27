@@ -1,0 +1,28 @@
+{
+  "group.leafpile": "落叶",
+
+  "item.leafpile.leaf": "叶子",
+  "item.leafpile.dead_leaf": "干枯的叶子",
+  "item.leafpile.leaf_skirt": "树叶裙",
+
+  "block.leafpile.oak_leaf_pile": "橡树落叶",
+  "block.leafpile.spruce_leaf_pile": "云杉落叶",
+  "block.leafpile.birch_leaf_pile": "白桦落叶",
+  "block.leafpile.jungle_leaf_pile": "丛林落叶",
+  "block.leafpile.acacia_leaf_pile": "金合欢落叶",
+  "block.leafpile.dark_oak_leaf_pile": "深色橡树落叶",
+  "block.leafpile.mangrove_leaf_pile": "红树落叶",
+  "block.leafpile.cherry_leaf_pile": "樱花落叶",
+  "block.leafpile.azalea_leaf_pile": "杜鹃落叶",
+  "block.leafpile.dead_oak_leaf_pile": "干枯的橡树落叶",
+  "block.leafpile.dead_spruce_leaf_pile": "干枯的云杉落叶",
+  "block.leafpile.dead_birch_leaf_pile": "干枯的白桦落叶",
+  "block.leafpile.dead_jungle_leaf_pile": "干枯的丛林落叶",
+  "block.leafpile.dead_acacia_leaf_pile": "干枯的金合欢落叶",
+  "block.leafpile.dead_dark_oak_leaf_pile": "干枯的深色橡树落叶",
+  "block.leafpile.dead_mangrove_leaf_pile": "干枯的红树落叶",
+  "block.leafpile.dead_cherry_leaf_pile": "干枯的樱花落叶",
+  "block.leafpile.dead_azalea_leaf_pile": "干枯的杜鹃落叶",
+
+  "subtitles.leafpile.leaf_skirt": "树叶裙：沙沙"
+}

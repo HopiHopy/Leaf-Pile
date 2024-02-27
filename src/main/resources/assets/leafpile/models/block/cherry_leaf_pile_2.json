@@ -1,0 +1,6 @@
+{
+  "parent": "leafpile:block/leaf_pile_2",
+  "textures": {
+    "leaf_pile": "leafpile:block/cherry_leaf_pile"
+  }
+}

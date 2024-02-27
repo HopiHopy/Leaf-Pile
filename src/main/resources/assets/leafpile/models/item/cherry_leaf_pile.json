@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "leafpile:item/cherry_leaf_pile"
+  }
+}

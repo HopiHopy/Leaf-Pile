@@ -1,0 +1,52 @@
+{
+  "credit": "Made with Blockbench",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "#leaf_pile"
+  },
+  "elements": [
+    {
+      "from": [
+        14,
+        1,
+        4
+      ],
+      "to": [
+        22,
+        1,
+        12
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          -4
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            8,
+            16,
+            16
+          ],
+          "texture": "#leaf_pile",
+          "tintindex": 0
+        },
+        "down": {
+          "uv": [
+            8,
+            16,
+            16,
+            8
+          ],
+          "texture": "#leaf_pile",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

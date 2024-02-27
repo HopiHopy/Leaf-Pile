@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "leafpile",
+  "version": "${version}",
+  "name": "Leaf Pile",
+  "description": "Fallen leaves naturally pile up underneath the leaves.",
+  "authors": [
+    "MovTery"
+  ],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/leafpile/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.movtery.leafpile.client.LeafPileClient"
+    ],
+    "main": [
+      "com.movtery.leafpile.LeafPile"
+    ]
+  },
+  "mixins": [
+    "leafpile.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

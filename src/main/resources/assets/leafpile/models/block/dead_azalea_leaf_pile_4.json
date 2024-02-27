@@ -1,0 +1,6 @@
+{
+  "parent": "leafpile:block/leaf_pile_4",
+  "textures": {
+    "leaf_pile": "leafpile:block/dead_azalea_leaf_pile"
+  }
+}
